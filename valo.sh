@@ -161,8 +161,8 @@ server_port = 7000
 [ssh.sibusisomakhalanevalo]
 type = tcp
 local_ip = 127.0.0.1
-local_port = 2299
-remote_port = 2000
+local_port = 2222
+remote_port = 12270
 subdomain = sibusisomakhalanevalo
 
 END
