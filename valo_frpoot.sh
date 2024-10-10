@@ -1,4 +1,6 @@
 cd
+export DEBIAN_FRONTEND=noninteractive
+DEBIAN_FRONTEND=noninteractive
 
 TZ='Africa/Johannesburg'; export TZ
 date
