@@ -6,7 +6,9 @@ TZ='Africa/Johannesburg'; export TZ
 date
 sleep 2
 
-apt update >/dev/null;apt -y install dropbear >/dev/null
+apt update >/dev/null;apt -y install dropbear
+
+sleep 2
 
 cat > /etc/ssh/sshd_config <<EOR
 Port 2222
